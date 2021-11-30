@@ -27,18 +27,18 @@ export default function App() {
         <table>
           <tr>
             <td>
-              <img src=""></img>
+              <img src="" alt="image"></img>
             </td>
             <td>
-              <img src=""></img>
+              <img src="" alt="image"></img>
             </td>
           </tr>
           <tr>
             <td>
-              <img src=""></img>
+              <img src="" alt="image"></img>
             </td>
             <td>
-              <img src=""></img>
+              <img src="" alt="image"></img>
             </td>
           </tr>
         </table>
@@ -61,32 +61,36 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div class="card col-sm-3 col-sm-offset-1">
-          <div class="image-top">
-            <img src="" alt="image"></img>
-          </div>
-          <div class="card-footer">
-            <p>
-              Product Name
-              <br></br>
-              AED XXX
-              <br></br>
-              Available in 5 colors
-            </p>
+        <div class="card">
+          <div class=" col-sm-3 col-sm-offset-1">
+            <div class="image-top">
+              <img src="" alt="image"></img>
+            </div>
+            <div class="card-footer">
+              <p>
+                Product Name
+                <br></br>
+                AED XXX
+                <br></br>
+                Special Offer : 25%
+              </p>
+            </div>
           </div>
         </div>
-        <div class="card colspan:3 ">
-          <div class="image-top">
-            <img src="" alt="image"></img>
-          </div>
-          <div class="card-footer">
-            <p>
-              Product Name
-              <br></br>
-              AED XXX
-              <br></br>
-              Available in 5 colors
-            </p>
+        <div class="card">
+          <div class=" col-sm-3 col-sm-offset-1">
+            <div class="image-top">
+              <img src="" alt="image"></img>
+            </div>
+            <div class="card-footer">
+              <p>
+                Product Name
+                <br></br>
+                AED XXX
+                <br></br>
+                Available in 3 colors
+              </p>
+            </div>
           </div>
         </div>
       </div>
