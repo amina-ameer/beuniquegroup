@@ -1,0 +1,53 @@
+h1,
+p {
+  font-family: Lato;
+}
+.topnav {
+  overflow: hidden;
+}
+.top-nav a {
+  float: left;
+  color: #348eda;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  color: #348eda;
+
+  font-weight: 200;
+}
+.topnav input[type='text'] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-right: 16px;
+  font-size: 17px;
+  margin-left: 500px;
+  padding-left: 400px;
+}
+.container {
+  display: block !important;
+  max-width: 600px !important;
+  margin: 0 auto !important; /* makes it centered */
+  clear: both !important;
+}
+p {
+  color: #666;
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.alignment {
+  text-align: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+}
